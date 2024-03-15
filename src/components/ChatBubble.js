@@ -3,7 +3,7 @@ import React from 'react';
 const ChatBubble = ({ message }) => {
   // Obtener el nombre del remitente y destinatario del objeto de mensaje
   const senderName = message.sender_name || 'Unknown';
-  const receiverName = message.received_name || 'Unknown';
+  //const receiverName = message.received_name || 'Unknown';
 
   // Formatear la fecha y hora del mensaje
   const messageDate = new Date(message.message_date);
